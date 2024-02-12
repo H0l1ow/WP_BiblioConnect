@@ -1,0 +1,2 @@
+2024-02-01T18:09:37+00:00 INFO Template setting migrated from D:/xampp/htdocs/BiblioConnect/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/templates/Simple to default/Simple
+2024-02-01T18:09:40+00:00 CRITICAL Table 'biblioconnect.wp_wcpdf_invoice_number' doesn't exist

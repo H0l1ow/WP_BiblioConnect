@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/OpenSans-Normal",
+        "bold": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/OpenSans-Bold",
+        "italic": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/OpenSans-Italic",
+        "bold_italic": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/Segoe-Normal",
+        "bold": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/Segoe-Bold",
+        "italic": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/Segoe-Italic",
+        "bold_italic": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/RobotoSlab-Normal",
+        "bold": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/RobotoSlab-Bold",
+        "italic": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/currencies",
+        "bold": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/currencies",
+        "italic": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/currencies",
+        "bold_italic": "D:\/xampp\/htdocs\/BiblioConnect\/wp-content\/uploads\/wpo_wcpdf_8bfbaf18f918fc3def66834d7c00d74e\/fonts\/currencies"
+    }
+}

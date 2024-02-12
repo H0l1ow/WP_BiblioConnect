@@ -1,0 +1,226 @@
+2024-02-11T15:56:47+00:00 CRITICAL Uncaught Exception: Error open stream: D:/xampp/htdocs/BiblioConnect/wp-content/uploads/edi-1c/D:/xampp/htdocs/BiblioConnect/wp-content/uploads/edi-1c/.htaccess. in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\DirectFileSystem.php:196
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\DirectFileSystem.php(351): BytePerfect\EDI\DirectFileSystem->fopen('D:/xampp/htdocs...', 'wb')
+#1 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\Repository.php(40): BytePerfect\EDI\DirectFileSystem->file_put_contents('D:/xampp/htdocs...', 'Deny from all')
+#2 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\Repository.php(27): BytePerfect\EDI\Repository->create()
+#3 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\Request.php(375): BytePerfect\EDI\Repository->clear()
+#4 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\Activator.php(29): BytePerfect\EDI\Request->reset()
+#5 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): BytePerfect\EDI\Activator::run(false)
+#6 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\xampp\htdocs\BiblioConnect\wp-admin\includes\plugin.php(693): do_action('activate_e-comm...', false)
+#9 D:\xampp\htdocs\BiblioConnect\wp-admin\plugins.php(58): activate_plugin('e-commerce-data...', 'http://localhos...', false)
+#10 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\DirectFileSystem.php w linii 196
+
+2024-02-11T15:56:56+00:00 CRITICAL Uncaught Exception: Error open stream: D:/xampp/htdocs/BiblioConnect/wp-content/uploads/edi-1c/D:/xampp/htdocs/BiblioConnect/wp-content/uploads/edi-1c/.htaccess. in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\DirectFileSystem.php:196
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\DirectFileSystem.php(351): BytePerfect\EDI\DirectFileSystem->fopen('D:/xampp/htdocs...', 'wb')
+#1 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\Repository.php(40): BytePerfect\EDI\DirectFileSystem->file_put_contents('D:/xampp/htdocs...', 'Deny from all')
+#2 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\Repository.php(27): BytePerfect\EDI\Repository->create()
+#3 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\Request.php(375): BytePerfect\EDI\Repository->clear()
+#4 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\Activator.php(29): BytePerfect\EDI\Request->reset()
+#5 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): BytePerfect\EDI\Activator::run(false)
+#6 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 D:\xampp\htdocs\BiblioConnect\wp-admin\includes\plugin.php(693): do_action('activate_e-comm...', false)
+#9 D:\xampp\htdocs\BiblioConnect\wp-admin\plugins.php(58): activate_plugin('e-commerce-data...', 'http://localhos...', false)
+#10 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\e-commerce-data-interchange\src\DirectFileSystem.php w linii 196
+
+2024-02-11T19:49:47+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T19:49:48+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T19:49:54+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T19:50:07+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T19:50:49+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T19:50:53+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T19:50:59+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T19:56:18+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T19:56:22+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T19:56:27+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T20:01:06+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T20:02:05+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T20:02:08+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+
+2024-02-11T20:02:14+00:00 CRITICAL Uncaught TypeError: fputcsv(): Argument #2 ($fields) must be of type array, string given in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php:53
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php(53): fputcsv(Resource id #1889, 'UNH+1+INVOIC:D:...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): download_invoice('')
+#2 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\BiblioConnect\wp-settings.php(643): do_action('init')
+#5 D:\xampp\htdocs\BiblioConnect\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\BiblioConnect\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\edi-generator.php w linii 53
+

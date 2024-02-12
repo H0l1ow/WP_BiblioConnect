@@ -1,0 +1,42 @@
+2024-01-31T18:59:13+00:00 CRITICAL Uncaught Error: Call to undefined function return_() in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(287) : eval()'d code:4
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(326): zmiana_tekstu('Dodaj do koszyk...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(205): WP_Hook->apply_filters('Dodaj do koszyk...', Array)
+#2 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Dodaj do koszyk...', Object(WC_Product_Simple))
+#3 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\templates\loop\add-to-cart.php(32): WC_Product_Simple->add_to_cart_text()
+#4 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1389): wc_get_template('loop/add-to-car...', Array)
+#6 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): woocommerce_template_loop_add_to_cart(Array)
+#7 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#10 D:\xampp\htdocs\BiblioConnect\wp-includes\template.php(792): require('D:\\xampp\\htdocs...')
+#11 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#12 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#13 D:\xampp\htdocs\BiblioConnect\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#15 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#16 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(287) : eval()'d code w linii 4
+
+2024-01-31T18:59:25+00:00 CRITICAL Uncaught Error: Call to undefined function return_() in D:\xampp\htdocs\BiblioConnect\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(287) : eval()'d code:4
+Stack trace:
+#0 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(326): zmiana_tekstu('Dodaj do koszyk...')
+#1 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(205): WP_Hook->apply_filters('Dodaj do koszyk...', Array)
+#2 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\includes\class-wc-product-simple.php(62): apply_filters('woocommerce_pro...', 'Dodaj do koszyk...', Object(WC_Product_Simple))
+#3 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\templates\loop\add-to-cart.php(32): WC_Product_Simple->add_to_cart_text()
+#4 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1389): wc_get_template('loop/add-to-car...', Array)
+#6 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(324): woocommerce_template_loop_add_to_cart(Array)
+#7 D:\xampp\htdocs\BiblioConnect\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 D:\xampp\htdocs\BiblioConnect\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#10 D:\xampp\htdocs\BiblioConnect\wp-includes\template.php(792): require('D:\\xampp\\htdocs...')
+#11 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\xampp\\htdocs...', false)
+#12 D:\xampp\htdocs\BiblioConnect\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#13 D:\xampp\htdocs\BiblioConnect\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#14 D:\xampp\htdocs\BiblioConnect\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#15 D:\xampp\htdocs\BiblioConnect\index.php(17): require('D:\\xampp\\htdocs...')
+#16 {main}
+  thrown w D:\xampp\htdocs\BiblioConnect\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(287) : eval()'d code w linii 4
+

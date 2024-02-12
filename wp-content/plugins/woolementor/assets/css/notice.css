@@ -1,0 +1,17 @@
+.cd-notice_ahref{
+	text-decoration: none;
+}
+.cd-notice_ahref button{
+	width: 100px;
+    height: 30px;
+    background-color: #2271b1;
+    border: none;	
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.wp-pointer-content h3 {
+	font-size: 16px;
+    font-weight: normal;
+}
